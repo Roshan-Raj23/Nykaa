@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+:root{
+    --main-color : #003243;
+}
+
+/* Footer part  */
+footer{
+    margin: 3em 0;
+}
+
+.firstfooterContainer{
+    padding: 5em;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.firstFooter{
+    display:grid;
+    grid-template-rows: 5vh 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    row-gap: 2em;
+    column-gap: 2em;
+}
+
+.logoss
+{
+    height: 40px;
+    width: 100px;
+    padding: 0;
+    object-fit: contain;
+}
+
+.logoFooter{
+    width: 5em;
+}
+
+.footerHead{
+    font-weight: 600;
+    font-size: 95%;
+}
+
+.textfooter{
+    color: white;
+    cursor: pointer;
+    font-size: 75%;
+    margin: .4em;
+}
+.textfooter:hover{
+    color: #57cbc3;
+}
+
+.categoriesFooterFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.secondFooter{
+    padding: 3em;
+    background-color: white;
+}
+
+.inSecondFooterFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondFooterLeft{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    padding: 1.6em 0 2em 0;
+}
+
+.leftFooterinFlex{
+    width: 20em;
+    display: flex;
+}
+
+.leftFooterTexts{
+    padding: 0 0 0 2em;
+}
+
+.leftFooterTextUp{
+    font-size: 90%;
+    border-bottom: .3px solid grey;
+    width:fit-content;
+}
+
+.leftFooterTextDown{
+    margin: .8em 0 0 0;
+    font-size: 70%;
+    opacity: 70%;
+}
+
+.rightfooterText{
+    font-size: 80%;
+}
+
+.socialMedia{
+    margin: .3em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia img{
+    margin: 0 .2em;
+    cursor: pointer;
+}
+
+
+
+.thirdFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 1em 0;
+}
+
+.lastFooterUp{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4 , 1fr);
+    row-gap: 2em;
+    column-gap: 2em;
+}
+
+.lastFooterDown{
+    padding: .5em 0 0 0;
+    text-align: center;
+}
+
+
+
+/* Removed part  */
+/* May need to change  */
+.topBrands{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vh;
+}
+.items{
+    margin: 5vh;
+    border-radius: .5em;
+    border: .2px solid grey;
+    width: 25vw;
+}
+.itemImg{
+    border-radius: .5em .5em 0 0;
+    height: 100%;
+    width: 25vw;
+}
+.afterImage{
+    padding: .5em;
+}
+.afterImage .offer{
+    color: #E80071;
+}
+.afterImage{
+    word-wrap: break-word;
+}

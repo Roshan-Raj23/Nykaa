@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+:root{
+    --main-color: #003243;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+input{
+    border: none;
+    outline: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    font-size: 80%;
+}
+
+.aremove{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    background-color: #E80071;
+    border-radius: 5px;
+}
+
+.changeColor{
+    color: black;
+}
+
+.changeColor:hover{
+    color: #1e6b7b;
+}
+
+.pointer:hover , .pointer{
+    cursor: pointer;
+}
+
+
+/* The part before header */
+#beforeHeader{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0 3em;
+    font-size: 1rem;
+}
+
+#inStart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marquee-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftStart {
+    display: flex;
+    padding: .3em 0;
+}
+
+#giftCard{
+    padding: 0 1em;
+    font-size: .9em;
+    border-right: .6px solid white;
+    cursor: pointer;
+}
+
+#help{
+    font-size: .9em;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+
+
+
+/* Header Bar */
+.maincontainer{
+    display: flex;
+    padding: 2px 0;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .7px solid grey;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.box{
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.inBox{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.logoss
+{
+    height: 40px;
+    width: 100px;
+    padding: 0;
+    object-fit: contain;
+}
+
+.dropdownBrandMenu{
+    display: none;
+    position: absolute;
+    left: 24em;
+    text-align: center;
+    /* width: fit-content; */
+    min-width: 10em;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdownBrandMenu a{
+    display: block;
+}
+
+#dropdownBrands:hover .dropdownBrandMenu{
+    display: block;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.searchBox{
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    padding: 0 .4em;
+    height: 3.3em;
+    width: 24vw;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.search-icon{
+    color: grey;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.searchBox input{
+    background-color: rgb(238, 238, 238);
+    border: 0 solid black;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.accountButton{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    padding: .5em 0;
+    font-size: 115%;
+}
+
+.svg-fix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-fix div{
+    padding-left: .1rem;
+}
+
+.cartBag{
+    border: 0;
+    background-color: transparent;
+    padding: .5em 0;
+    cursor: pointer;
+}
